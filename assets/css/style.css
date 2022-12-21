@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.registration{
+    height: 100vh;
+    background-color: rgb(232, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+/* left side */
+
+.left-side{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.left-side i{
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 10px;
+}
+
+.name{
+    display: flex;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(85, 84, 84);
+    margin-bottom: 30px;
+    
+    
+}
+
+.name input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.pass{
+    display: flex;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(85, 84, 84);
+    margin-bottom: 30px;
+
+}
+
+.pass input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+}
+
+
+.email{
+    display: flex;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(85, 84, 84);
+    margin-bottom: 30px;
+
+}
+
+.email input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 13px;
+}
+
+.pass-again{
+    display: flex;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(85, 84, 84);
+    margin-bottom: 30px;
+
+}
+
+.pass-again input{
+    display: flex;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+
+}
+
+
+.terms{
+    margin-bottom: 30px;
+    font-size: 15px;
+
+}
+
+.terms input{
+    cursor: pointer;
+}
+.terms span{
+    padding-left: 10px;
+}
+
+button{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(62, 159, 237, 0.927);
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+/* right side */
+.right-side{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+     
+
+}
+
+img{
+    width: 100%;
+    padding-top: 90px;
+   
+}
+
+.right-side a{
+    width: 100%;
+    position: absolute;
+    bottom: 22%;
+    padding-left: 150px;
+
+}
